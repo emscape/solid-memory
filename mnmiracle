@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.minnesotamiracle.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#673AB7"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Congratulations!"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/keenum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/keenum"
+                android:layout_marginLeft="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Case and Stefon"
+                android:layout_below="@id/keenum"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#673AB7"
+                android:paddingTop="5dp"
+                />
+            <ImageView
+                android:id="@+id/plus"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/plus"
+                android:layout_toRightOf="@id/keenum"
+                android:scaleType="centerCrop"
+            />
+            <ImageView
+                android:id="@+id/diggs"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/diggs"
+                android:layout_toRightOf="@id/plus"
+                android:layout_marginRight="40dp"
+                android:scaleType="centerCrop"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#673AB7">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mnmiracle"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 Divisional Champs"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#FFEB3B"
+            android:paddingTop="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Minnesota Miracle"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#FFEB3B"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
